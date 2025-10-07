@@ -75,7 +75,7 @@ docker compose -f docker-compose-openai.yaml up
 
 Once the challenges are running you can access them using the following url: `http://localhost:5000/login?auth=[YOUR-AUTH-KEY]`. 
 
-On macOS you will need to access `http://127.0.0.1:5000/login?=[YOUR-AUTH-KEY]` because localhost maps to IPv6 and the containers are listening on IPv4.
+On macOS you will need to access `http://127.0.0.1:5000/login?auth=[YOUR-AUTH-KEY]` because localhost maps to IPv6 and the containers are listening on IPv4.
 
 ### Changing the Challenges
 
